@@ -1,3 +1,36 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
 .skip-color{
     color: #FBA24F;
+}
+.flexible{
+    margin-top:40px ;
+    display: flex;
+    margin-bottom: 140px;
+}
+#diet-text{
+    color: #575757;
+    font-size: 30px;
+}
+#no-diet{
+    color: gray;
+    font-size: 15px;
+    padding-bottom: 23px;
+}
+.link-btn{
+    text-decoration: none;
+    border-radius: 30px;
+    color: white;
+    background-image: linear-gradient(tomato,orange);
+    padding: 20px 40px;
+   
+}
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+}
+.half-width img{
+    width: 80%;
 }
