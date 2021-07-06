@@ -2,7 +2,7 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
-.skip-color{
+.orange-color{
     color: #FBA24F;
 }
 .flexible{
@@ -67,10 +67,24 @@ body{
     width: 90%;
     box-shadow: 10px 10px 40px tan;
     border-radius: 20px;
-    justify-content: center;
-
+    justify-content: center; 
+    align-content: center;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 100px;
 }
+
 .user-item{
     padding: 44px;
     width: 20%;
 }
+footer{
+    padding: 10px;
+    text-align: center;
+    height: 200px;
+    background-color: black;
+}
+footer p{
+    color: white;
+}
+
