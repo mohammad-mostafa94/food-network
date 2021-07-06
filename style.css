@@ -6,7 +6,7 @@ body{
     color: #FBA24F;
 }
 .flexible{
-    margin-top:40px ;
+    margin-top:15px ;
     display: flex;
     margin-bottom: 140px;
 }
@@ -49,4 +49,28 @@ body{
 }
 .gray-text{
     color: gray;
+}
+.card-part{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.card{
+    width: 25%;
+    margin: 2%;
+    padding: 1%;
+    box-shadow: 10px 10px 40px tan;
+    border-radius: 20px;
+}
+.user-part{
+    display: flex;
+    width: 90%;
+    box-shadow: 10px 10px 40px tan;
+    border-radius: 20px;
+    justify-content: center;
+
+}
+.user-item{
+    padding: 44px;
+    width: 20%;
 }
